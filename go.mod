@@ -26,6 +26,7 @@ require (
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
+	// Note: rogpeppe -> rogpeppe (fixing typo in original upstream module path)
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
