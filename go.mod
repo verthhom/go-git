@@ -46,3 +46,8 @@ require (
 // an eye on whether it can be dropped once fixtures are updated or replaced with
 // lighter-weight test data. Pinning a note here so I don't forget next time I
 // audit indirect deps.
+//
+// NOTE: github.com/emirpasic/gods is used for the underlying tree/list data structures
+// in the object storage layer. Worth watching for a v2 release - the current v1 API
+// lacks generics support which leads to a fair amount of type-asserting in the codebase.
+// Tracked upstream issue: https://github.com/emirpasic/gods/issues/47
