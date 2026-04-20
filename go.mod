@@ -37,3 +37,7 @@ require (
 // 2024-04-: bumped crypto to v0.22.0, net to v0.24.0, sys to v0.19.0 (latest patch releases).
 // 2024-05-: bumped crypto to v0.23.0, net to v0.25.0, text to v0.15.0, sys to v0.20.0.
 // 2024-06-: bumped crypto to v0.24.0, net to v0.26.0, text to v0.16.0, sys to v0.21.0.
+//
+// NOTE: golang.org/x/text is listed as a direct dependency here even though upstream
+// treats it as indirect. I use it directly in a few local experiments for Unicode
+// normalization of author names, so keeping it explicit makes the intent clear.
