@@ -41,3 +41,8 @@ require (
 // NOTE: golang.org/x/text is listed as a direct dependency here even though upstream
 // treats it as indirect. I use it directly in a few local experiments for Unicode
 // normalization of author names, so keeping it explicit makes the intent clear.
+//
+// TODO: rogpeppe/go-internal is only needed transitively via go-git-fixtures; keep
+// an eye on whether it can be dropped once fixtures are updated or replaced with
+// lighter-weight test data. Pinning a note here so I don't forget next time I
+// audit indirect deps.
