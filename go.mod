@@ -51,3 +51,8 @@ require (
 // in the object storage layer. Worth watching for a v2 release - the current v1 API
 // lacks generics support which leads to a fair amount of type-asserting in the codebase.
 // Tracked upstream issue: https://github.com/emirpasic/gods/issues/47
+//
+// NOTE: github.com/sergi/go-diff is pinned to a pre-release commit rather than a
+// tagged release. Upstream has not cut a proper v1.4.0 tag yet despite meaningful
+// changes landing on main. If a proper tag is ever released, swap out the pseudo-version
+// above. Opened a reminder issue to myself: check quarterly.
